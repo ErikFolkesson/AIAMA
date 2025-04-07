@@ -1,6 +1,7 @@
 from environment.vacuum_world import VacuumWorld
 from agent.reflex_agent import ReflexAgent
 
+
 def main():
     """
     Main function to test all possible agent/dirt configurations in the VacuumWorld.
@@ -17,7 +18,7 @@ def main():
         (None, "Run 4")
     ]
 
-    movement_penalty = 0
+    movement_penalty = 1
 
     # Run the simulation for each dirt placement
     for dirt_placement, run_label in dirt_placements:
